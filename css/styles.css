@@ -1,0 +1,155 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+/************************title and img***************************/
+#title,#cta{
+	background: #f4416d;
+	color: #fff;
+}
+#title h1{
+	font-family: 'Ubuntu';
+	font-size: 3.5rem;
+	line-height: 1.5;
+}
+.container-fluid{
+	padding: 3% 15% 7%;
+}
+#title img{
+	width: 60%;
+	position: absolute;
+	transform: rotate(25deg);
+	right: 25%;
+}
+
+/************************navabar-style*****************************/
+.navbar{
+	padding:0 0 4.5rem;
+}
+.navbar-brand{
+	font-family: 'Ubuntu';
+	font-size: 2.5rem;
+}
+.navbar-items{
+	padding: 0 18px;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffffdb;
+}
+
+
+.nav-link{
+
+	font-size: 1.2rem;
+	font-family: 'Montserrat-light';
+}
+
+/*************************download button***************************/
+.btn-dwn{
+	margin: 5% 3% 5% 0;
+}
+/**********************Features*******************************/
+
+#features{
+	padding: 7% 15%;
+	position: relative;
+	background: #fff;
+	z-index: 1;
+}
+.fedit{
+	text-align: center;
+	padding: 7% 0;
+}
+.fedit i{
+	color: #ea6868;
+}
+.fedit h3{
+	font-family: Montserrat;
+	font-weight: bolder;
+
+}
+.fedit p{
+	color: #8f8f8f;
+}
+.fedit i:hover{
+	color: red;
+}
+
+/*********************testomonial section*******************************/
+
+
+#testimonials{
+
+	text-align: center;
+	background: #f4416d;
+	color: #fff;
+}
+.carousel-item{
+	padding: 7% 15%;
+}
+#testimonials h2{
+	font-family: Montserrat;
+	font-weight: bold;
+	line-height: 1.5;
+	font-size: 3rem;
+}
+
+#testimonials img{
+	width: 10%;
+	border-radius: 100%;
+	margin: 10px;
+}
+
+/*****************press section****************************/
+#press{
+	text-align: center;
+	background: #f4416d;
+	padding-bottom: 3%;
+}
+#press img{
+	width: 15%;
+	margin: 20px 20px 15px;
+}
+
+/*******************pricing section***********************/
+#pricing{
+	padding: 100px;
+	text-align: center;
+}
+.p-col{
+	padding: 3%;
+	text-align: center;
+}
+/***********************call to action and footer******************/
+#cta,#footer{
+	text-align: center;
+}
+#cta h3{
+	padding-top: 30px;
+}
+#footer{
+	padding:3% 0;
+}
+.btn-dwn{
+	margin-top: 0;
+}
+.ficon{
+	padding-right: 2px;
+}
+/********************media queries**********************/
+@media (max-width: 1028px){
+	#title{
+		text-align: center;
+	}
+	#title img{
+		position: static;
+		transform: rotate(0);
+	}
+	.nav-link{
+		text-align: left;
+	}
+	#testimonials h2 {
+		font-size: 2rem;
+	}
+}
+
+
